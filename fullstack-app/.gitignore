@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+**/build/
+**/dist/
+
+# Environment files — NEVER commit real .env files
+.env
+**/.env
+!**/.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Docker volumes
+**/data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Test coverage
+coverage/
+**/coverage/
+
+# AWS
+*.pem
+*.key
